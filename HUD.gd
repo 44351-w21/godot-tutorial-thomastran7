@@ -21,7 +21,7 @@ func show_game_over():
 	show_message("Game Over")
 	yield($MessageTimer, "timeout")
 	
-	$Message.text= "Dodge the/nCreeps!"
+	$Message.text= "Dodge the Creeps!"
 	$Message.show()
 	#Waits for 1 second
 	#make a one-shot timer and wait for it to finish
